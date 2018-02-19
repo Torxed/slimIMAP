@@ -6,10 +6,10 @@ A Simple and Slim IMAP server aiming for a minimalistic and simple design.
 Requirements
 ============
 
- * Python3.5+
- * python-pam
- * python-psycopg2
- * python-systemd
+ * Python3.5+ *(because of how path imports and dict merges are executed)*
+ * python-pam *(optional in the future)*
+ * python-psycopg2 *(postgres is not actively in use, but the code placeholders are)*
+ * python-systemd *(used for logging, will be optional in the future)*
 
 Installation
 ============
