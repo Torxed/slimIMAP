@@ -3,6 +3,14 @@ SlimIMAP
 
 A Simple and Slim IMAP server aiming for a minimalistic and simple design.
 
+Requirements
+============
+
+ * Python3.5+
+ * python-pam
+ * python-psycopg2
+ * python-systemd
+
 Installation
 ============
 
